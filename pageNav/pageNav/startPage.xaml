@@ -9,12 +9,12 @@
       Title="startPage">
 
     <Grid Background="White">
-
-
-
-
-        <Button x:Name="signInBtn" Content="Sign In" HorizontalAlignment="Left" Margin="79,188,0,0" VerticalAlignment="Top" Width="135" Height="54" Click="signInBtn_Click"/>
-        <Button x:Name="signOutBtn" Content="SignOut" HorizontalAlignment="Left" Margin="298,188,0,0" VerticalAlignment="Top" Width="137" Height="54" Click="signOutBtn_Click"/>
+        <StackPanel HorizontalAlignment="Left" Height="139" Margin="57,201,0,0" VerticalAlignment="Top" Width="163">
+            <Button x:Name="signInBtn" Content="Sign In" HorizontalAlignment="Left" VerticalAlignment="Top" Width="153" Height="54" Click="signInBtn_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="139" Margin="312,201,0,0" VerticalAlignment="Top" Width="182">
+            <Button x:Name="signOutBtn" Content="SignOut" HorizontalAlignment="Left" VerticalAlignment="Top" Width="172" Height="54" Click="signOutBtn_Click"/>
+        </StackPanel>
 
     </Grid>
 </Page>

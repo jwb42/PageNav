@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:pageNav"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Frame x:Name="mainFrame" Content="Frame" NavigationUIVisibility="Hidden"/>
+    <Viewbox StretchDirection="Both" Stretch="Uniform">
+        <Grid>
+            <Frame x:Name="mainFrame" Content="" NavigationUIVisibility="Hidden"/>
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Window>
